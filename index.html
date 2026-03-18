@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Darrin Miller — Cloud Security Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Sticky Nav -->
+  <nav id="topnav">
+    <div class="nav-inner">
+      <span class="nav-name">Darrin Miller</span>
+      <div class="nav-links">
+        <a href="#summary">Summary</a>
+        <a href="#certs">Certs</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+
+    <!-- Header -->
+    <header class="fade-in">
+      <div class="header-tag">[ Cloud Security ]</div>
+      <h1>Darrin Miller</h1>
+      <p class="tagline">Aspiring Cloud Security Engineer</p>
+      <div class="contact">
+        <span>Washington, DC</span>
+        <span class="sep">|</span>
+        <a href="mailto:darrinmiller07@gmail.com">darrinmiller07@gmail.com</a>
+        <span class="sep">|</span>
+        <span>(901) 343-3342</span>
+        <span class="sep">|</span>
+        <a href="linkedin.com/in/darrin-miller-b5b29b281" target="_blank">LinkedIn</a>
+        <span class="sep">|</span>
+        <a href="https://github.com/Darrin07" target="_blank">GitHub</a>
+        <span class="sep">|</span>
+        <button class="copy-btn" onclick="copyEmail()">Copy Email</button>
+      </div>
+      <div id="copy-confirm" class="copy-confirm">Copied!</div>
+    </header>
+
+    <!-- Summary -->
+    <section id="summary" class="fade-in">
+      <h2><span class="section-num">01</span> Summary</h2>
+      <p>Aspiring cybersecurity professional with a solid foundation in cybersecurity, information technology, and computer science. Capable of collaborating with cross-functional teams, delivering actionable security solutions, and demonstrating a commitment to continuous learning and professional development.</p>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certs" class="fade-in">
+      <h2><span class="section-num">02</span> Certifications</h2>
+      <ul class="cert-list">
+        <li>
+          <span class="cert-badge">✓</span>
+          <span>CompTIA Security+ ce</span>
+        </li>
+        <li>
+          <span class="cert-badge">✓</span>
+          <span>Splunk Core Certified User</span>
+        </li>
+        <li>
+          <span class="cert-badge in-progress">→</span>
+          <span>AWS Solutions Architect Associate (SAA-C03) <em>— In Progress</em></span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="fade-in">
+      <h2><span class="section-num">03</span> Education</h2>
+      <div class="edu-item">
+        <div class="edu-main">
+          <strong>B.S. Computer Science</strong> — Oregon State University
+        </div>
+        <span class="date-tag">Expected June 2026</span>
+      </div>
+      <div class="edu-item">
+        <div class="edu-main">
+          <strong>B.S. Biology</strong> — Hampton University
+        </div>
+        <span class="date-tag">2018</span>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="fade-in">
+      <h2><span class="section-num">04</span> Technical Skills</h2>
+
+      <div class="skill-group">
+        <div class="skill-label">Cloud</div>
+        <div class="skill-tags">
+          <span class="tag tag-cloud">AWS S3</span>
+          <span class="tag tag-cloud">IAM</span>
+          <span class="tag tag-cloud">CloudFront</span>
+          <span class="tag tag-cloud">Lambda</span>
+          <span class="tag tag-cloud">DynamoDB</span>
+          <span class="tag tag-cloud">CloudTrail</span>
+          <span class="tag tag-cloud">KMS</span>
+          <span class="tag tag-cloud">CloudFormation</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-label">Languages</div>
+        <div class="skill-tags">
+          <span class="tag tag-lang">Python</span>
+          <span class="tag tag-lang">C</span>
+          <span class="tag tag-lang">PowerShell</span>
+          <span class="tag tag-lang">NodeJS</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-label">Security Tools</div>
+        <div class="skill-tags">
+          <span class="tag tag-sec">Splunk</span>
+          <span class="tag tag-sec">Wireshark</span>
+          <span class="tag tag-sec">Volatility</span>
+          <span class="tag tag-sec">Autopsy</span>
+          <span class="tag tag-sec">KAPE</span>
+          <span class="tag tag-sec">FTK Imager</span>
+          <span class="tag tag-sec">PhishTool</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-label">Network</div>
+        <div class="skill-tags">
+          <span class="tag tag-net">IDS/IPS</span>
+          <span class="tag tag-net">Firewalls</span>
+          <span class="tag tag-net">Network Security</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <div class="skill-label">Databases</div>
+        <div class="skill-tags">
+          <span class="tag tag-db">MySQL</span>
+          <span class="tag tag-db">DynamoDB</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="fade-in">
+      <h2><span class="section-num">05</span> Experience</h2>
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <div class="job-title">Security Operations Specialist</div>
+            <div class="job-company">Inter-Con Security</div>
+          </div>
+          <span class="date-tag">Nov 2024 – Present</span>
+        </div>
+        <ul>
+          <li>Conducted proactive surveillance and security audits to identify potential vulnerabilities in physical and digital security protocols.</li>
+          <li>Assisted in documenting and escalating security incidents, ensuring proper reporting and mitigation strategies aligned with cybersecurity best practices.</li>
+          <li>Managed and enforced security policies for restricted areas and sensitive data access, aligning with zero-trust principles.</li>
+          <li>Utilized security monitoring tools to support situational awareness, aiding in real-time decision-making for threat mitigation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="fade-in">
+      <h2><span class="section-num">06</span> Projects</h2>
+
+      <div class="project">
+        <div class="project-header">
+          <span class="project-title">AWS Cloud Security Portfolio</span>
+          <div class="project-tags">
+            <span class="tag tag-cloud">S3</span>
+            <span class="tag tag-cloud">Lambda</span>
+            <span class="tag tag-cloud">CloudFormation</span>
+            <span class="tag tag-cloud">IAM</span>
+          </div>
+        </div>
+        <ul>
+          <li>Designing and deploying a serverless resume platform on AWS (S3, CloudFront, Lambda, DynamoDB, API Gateway) secured with least-privilege IAM policies, KMS encryption, and CloudTrail audit logging.</li>
+          <li>Implementing full CloudFormation Infrastructure as Code and GitHub Actions CI/CD pipeline.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <span class="project-title">Open Source Contribution — VAZlabs/cyber-find</span>
+          <div class="project-tags">
+            <span class="tag tag-lang">Python</span>
+            <span class="tag tag-lang">Docker</span>
+            <span class="tag tag-lang">pytest</span>
+          </div>
+        </div>
+        <ul>
+          <li>Authored two merged pull requests to an active open source cybersecurity OSINT tool (59 GitHub stars).</li>
+          <li>PR #41: Wrote parametrized Python unit tests for <code>normalize_username()</code> covering 6 edge cases — whitespace, mixed-case, unicode, 10k-char input, empty string, and None handling.</li>
+          <li>PR #47: Implemented Dockerfile and docker-compose.yml, resolved a Tkinter slim-image dependency bug, and documented Docker usage in the README.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <span class="project-title">Incident Handling & Splunk SIEM Integration</span>
+          <div class="project-tags">
+            <span class="tag tag-sec">Splunk</span>
+          </div>
+        </div>
+        <ul>
+          <li>Mapped attacker activities across all 7 Cyber Kill Chain phases using Splunk searches to facilitate faster detection and response.</li>
+          <li>Deconstructed a website defacement incident through log correlation and anomaly detection across wineventlog, winRegistry, and fortigate_utm sources.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <span class="project-title">Memory Analysis with Volatility</span>
+          <div class="project-tags">
+            <span class="tag tag-sec">Volatility</span>
+          </div>
+        </div>
+        <ul>
+          <li>Conducted in-depth memory forensics to extract critical artifacts and support incident response efforts.</li>
+          <li>Pinpointed and documented key memory artifacts, improving incident preparedness and cybersecurity posture.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <span class="project-title">Network Investigations Using Wireshark</span>
+          <div class="project-tags">
+            <span class="tag tag-sec">Wireshark</span>
+          </div>
+        </div>
+        <ul>
+          <li>Dissected network traffic to identify anomalies and uncover hidden vulnerabilities, producing actionable security reports.</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <div class="project-header">
+          <span class="project-title">Data Acquisition Lab</span>
+          <div class="project-tags">
+            <span class="tag tag-sec">KAPE</span>
+            <span class="tag tag-sec">FTK Imager</span>
+          </div>
+        </div>
+        <ul>
+          <li>Engineered a Data Acquisition Lab using KAPE, FTK Imager, and ProcDump to preserve and prepare digital evidence for forensic analysis.</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <div class="footer-line">
+      <span>Visitors: <span id="counter">—</span></span>
+      <span>Built on AWS · CloudFront · Lambda · DynamoDB</span>
+    </div>
+
+  </div>
+
+  <script>
+    // ── Copy email ──────────────────────────────────────────────
+    function copyEmail() {
+      navigator.clipboard.writeText('darrinmiller07@gmail.com').then(() => {
+        const confirm = document.getElementById('copy-confirm');
+        confirm.classList.add('show');
+        setTimeout(() => confirm.classList.remove('show'), 2000);
+      });
+    }
+
+    // ── Fade-in on scroll ───────────────────────────────────────
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // ── Active nav highlight on scroll ─────────────────────────
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('#topnav a');
+
+    window.addEventListener('scroll', () => {
+      // Show/hide nav shadow
+      document.getElementById('topnav').classList.toggle('scrolled', window.scrollY > 60);
+
+      // Highlight active section
+      let current = '';
+      sections.forEach(section => {
+        if (window.scrollY >= section.offsetTop - 120) {
+          current = section.getAttribute('id');
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.toggle('active', link.getAttribute('href') === '#' + current);
+      });
+    });
+
+    // ── Visitor counter (wired up in Week 4) ───────────────────
+    // fetch('YOUR_API_GATEWAY_URL')
+    //   .then(r => r.json())
+    //   .then(data => document.getElementById('counter').innerText = data.count);
+  </script>
+
+</body>
+</html>
