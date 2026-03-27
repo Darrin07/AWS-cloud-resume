@@ -16,7 +16,7 @@
 
 ## Project Phases
 - [x] Week 1 — HTML/CSS resume built and deployed to S3
-- [ ] Week 2 — CloudFront + HTTPS + custom domain
+- [x] Week 2 — CloudFront, HTTPS, custom domain
 - [ ] Week 3 — IAM hardening, KMS encryption, CloudTrail, security documentation
 - [ ] Week 4 — Serverless visitor counter (Lambda + DynamoDB + API Gateway)
 - [ ] Week 5 — CloudFormation IaC for all resources
